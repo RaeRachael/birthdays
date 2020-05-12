@@ -10,7 +10,7 @@ describe '#birthday_list' do
     it "should add to the birthday hash,
      name and date given as arguements" do
        add_birthday("name", "date")
-       expect(birthdays[0][:name]).to eq("name")
+       expect($birthdays[0][:name]).to eq("name")
     end
   end
 end
